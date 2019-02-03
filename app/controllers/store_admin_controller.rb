@@ -1,7 +1,7 @@
 class StoreAdminController < ActionController::Base
-  layout "admin"
-  def home
 
+  def home
+    render :layout => "admin"
   end
 
 end
