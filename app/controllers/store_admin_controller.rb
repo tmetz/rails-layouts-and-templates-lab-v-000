@@ -8,4 +8,8 @@ class StoreAdminController < ActionController::Base
     render :layout => "order_administration"
   end
 
+  def invoice
+
+  end
+
 end
