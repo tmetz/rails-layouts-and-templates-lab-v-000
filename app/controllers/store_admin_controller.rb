@@ -9,7 +9,7 @@ class StoreAdminController < ActionController::Base
   end
 
   def invoice
-
+    render :layout => false
   end
 
 end
