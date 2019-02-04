@@ -1,4 +1,4 @@
-class StoreAdminController < ActionController::Base
+class StoreAdminController < ApplicationController
   layout "admin"
   def home
     #render :layout => "admin"
